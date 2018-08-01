@@ -2,7 +2,7 @@ variable "local_env_vars" {
   type = "map"
 
   default = {
-    service  = "dotnet"
+    service  = "dummy-service"
     username = "steve"
   }
 }
